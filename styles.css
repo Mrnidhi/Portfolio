@@ -36,13 +36,15 @@ body {
 }
 
 .profile-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 0;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
     border: 6px solid white;
     margin-bottom: 20px;
     box-shadow: 4px 4px 0 #8b0000;
     transform: rotate(-2deg);
+    object-fit: contain;
+    background-color: #f0f0f0;
 }
 
 .header h1 {
@@ -318,8 +320,9 @@ main {
     }
     
     .profile-pic {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
         border-width: 4px;
+        border-radius: 50%;
     }
 }
